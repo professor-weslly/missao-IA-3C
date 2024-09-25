@@ -8,7 +8,7 @@ export const perguntas = [
                     "afirmacao 1",
                     "afirmacao 2"
                     ],
-                proxima: 1;
+                proxima: 1,
             },
             {
                 texto: "Alternativa 2 da pergunta 1",
@@ -16,7 +16,7 @@ export const perguntas = [
                     "afirmacao 1",
                     "afirmacao 2"
                     ],
-                proxima: 2;
+                proxima: 2,
             }           
             
         ]
