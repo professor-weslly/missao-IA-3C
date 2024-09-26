@@ -7,14 +7,16 @@ export const perguntas = [
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
-                    ]
+                    ],
+                proxima: 1,
             },
             {
                 texto: "Alternativa 2 da pergunta 1",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
-                    ]
+                    ],
+                proxima: 2,
             }           
             
         ]
