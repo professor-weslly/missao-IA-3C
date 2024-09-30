@@ -1,6 +1,6 @@
 export const perguntas = [
     {
-        enunciado: "Qual é a função principal dos insetos polinizadores no ecossistema?",
+        enunciado: "Você quer descobrir qual é a função principal dos insetos polinizadores no ecossistema?",
         alternativas: [
             {
                 texto: "Dispersar sementes",
@@ -19,7 +19,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Qual dos seguintes insetos é conhecido por formar colônias altamente organizadas?",
+        enunciado: "Agora, você quer descobrir qual dos seguintes insetos é conhecido por formar colônias altamente organizadas?",
         alternativas: [
             {
                 texto: "Formiga",
@@ -38,7 +38,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Qual inseto passa por metamorfose completa durante seu ciclo de vida?",
+        enunciado: "Você ainda pode querer saber qual inseto passa por metamorfose completa durante seu ciclo de vida?",
         alternativas: [
             {
                 texto: "Borboleta",
@@ -57,7 +57,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Qual inseto é considerado o mais rápido em termos de velocidade de voo?",
+        enunciado: "Você também achou interessante perguntar qual inseto é considerado o mais rápido em termos de velocidade de voo?",
         alternativas: [
             {
                 texto: "Libélula",
@@ -76,7 +76,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Qual é o maior inseto em termos de envergadura?",
+        enunciado: "Por fim você quer descobrir qual é o maior inseto em termos de envergadura?",
         alternativas: [
             {
                 texto: "Borboleta imperador",
