@@ -1,58 +1,58 @@
-export const perguntas:[
-{
-        enunciado: "Pergunta 1",
+export const perguntas = [
+    {
+        enunciado: quanto é 1+1?,
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "2",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "acertou, parabens",
+                    "logo, 1+1 é 2"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "11",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "nao foi dessa vez",
+                    "a resposta correta é 2"
                     ]
             }           
             
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "quanto é 3x+9x?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"14x",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "ops, não foi dessa vez",
+                    "a resposta correta é 12x"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "12x",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "correto",
+                    "logo, 3x+9x é 12x"
                     ]
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "quanto é 10x vezes 20x?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"200x",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "errado",
+                    "a resposta correta é 200x²"
                     ]
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto:"200x²",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "parabéns, você acertou",
+                    "logo, 10x vezes 20x é 200x²"
                     ]
             }
             
