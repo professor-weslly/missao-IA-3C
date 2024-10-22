@@ -52,7 +52,7 @@ button:hover{
 .caixa-alternativas {
     display: flex;
     flex-direction: column;
-    gab: 10px;
+    gap: 10px;
 }
 
 .caixa-resultado {
