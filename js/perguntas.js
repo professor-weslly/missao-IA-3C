@@ -1,6 +1,6 @@
 export const perguntas = [
     {
-        enunciado: quanto é 1+1?,
+        enunciado: "quanto é 1+1?",
         alternativas: [
             {
                 texto: "2",
