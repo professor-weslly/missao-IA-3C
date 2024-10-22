@@ -1,61 +1,95 @@
 export const perguntas = [
     {
-        enunciado: "quanto é 1+1?",
+        enunciado: "Você quer descobrir qual é a função principal dos insetos polinizadores no ecossistema?",
         alternativas: [
             {
-                texto: "2",
+                texto: "Dispersar sementes",
                 afirmacao: [
-                    "acertou, parabens",
-                    "logo, 1+1 é 2"
-                    ]
+                    "Na verdade, o papel da dispersão é mais comum em outros animais, como aves e mamíferos."
+                ],
+                proxima: 1,  // Direciona para a pergunta 2
             },
             {
-                texto: "11",
+                texto: "Polinizar plantas",
                 afirmacao: [
-                    "nao foi dessa vez",
-                    "a resposta correta é 2"
-                    ]
-            }           
-            
+                    "A polinização é essencial para a produção de frutos e sementes, mantendo a biodiversidade."
+                ],
+                proxima: 1,  // Direciona para a pergunta 2
+            },
         ]
     },
     {
-        enunciado: "quanto é 3x+9x?",
+        enunciado: "Agora, você quer descobrir qual dos seguintes insetos é conhecido por formar colônias altamente organizadas?",
         alternativas: [
             {
-                texto:"14x",
+                texto: "Formiga",
                 afirmacao: [
-                    "ops, não foi dessa vez",
-                    "a resposta correta é 12x"
-                    ]
+                   "As formigas vivem em colônias organizadas com papéis definidos, como operárias, soldados e rainhas.",
+                ],
+                proxima: 2,  // Direciona para a pergunta 3
             },
             {
-                texto: "12x",
+                texto: "Grilo",
                 afirmacao: [
-                    "correto",
-                    "logo, 3x+9x é 12x"
-                    ]
-            }
+                    "Os grilos são insetos solitários, não vivendo em colônias organizadas como as formigas ou abelhas."
+                ],
+                proxima: 2,  // Direciona para a pergunta 3
+            },
         ]
     },
     {
-        enunciado: "quanto é 10x vezes 20x?",
+        enunciado: "Você ainda pode querer saber qual inseto passa por metamorfose completa durante seu ciclo de vida?",
         alternativas: [
             {
-                texto:"200x",
+                texto: "Borboleta",
                 afirmacao: [
-                    "errado",
-                    "a resposta correta é 200x²"
-                    ]
+                    " As borboletas passam por uma metamorfose completa, incluindo estágios de ovo, lagarta, pupa (crisálida) e adulto.",
+                ],
+                proxima: 3,  // Direciona para a pergunta 4
             },
             {
-                texto:"200x²",
+                texto: "Barata",
                 afirmacao: [
-                    "parabéns, você acertou",
-                    "logo, 10x vezes 20x é 200x²"
-                    ]
+                    "As baratas passam por metamorfose incompleta, sem o estágio de pupa.",
+                ],
+                proxima: 3,  // Direciona para a pergunta 4
             },
-            
+        ]
+    },
+    {
+        enunciado: "Você também achou interessante perguntar qual inseto é considerado o mais rápido em termos de velocidade de voo?",
+        alternativas: [
+            {
+                texto: "Libélula",
+                afirmacao: [
+                    "As libélulas são extremamente rápidas, alcançando até 56 km/h em voo.",
+                ],
+                proxima: 4,  // Direciona para a pergunta 5
+            },
+            {
+                texto: "Abelha",
+                afirmacao: [
+                    "As abelhas são rápidas, mas não tanto quanto as libélulas. Elas voam a cerca de 24 km/h quando estão em busca de néctar.",
+                ],
+                proxima: 4,  // Direciona para a pergunta 5
+            },
+        ]
+    },
+    {
+        enunciado: "Por fim você quer descobrir qual é o maior inseto em termos de envergadura?",
+        alternativas: [
+            {
+                texto: "Borboleta imperador",
+                afirmacao: [
+                    "A borboleta imperador pode ter uma envergadura de até 30 cm, sendo uma das maiores borboletas do mundo.",
+                ]
+            },
+            {
+                texto: "Besouro-golias",
+                afirmacao: [
+                    "O besouro-golias é um dos maiores insetos em termos de peso, mas não em envergadura."
+                ]
+            },
         ]
     }
 ];
