@@ -54,8 +54,8 @@ export const perguntas = [
                     "parabéns, você acertou",
                     "logo, 10x vezes 20x é 200x²"
                     ]
-            }
+            },
             
         ]
-    },
+    }
 ];
