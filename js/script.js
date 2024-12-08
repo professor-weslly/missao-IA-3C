@@ -1,4 +1,4 @@
-import {aleatorio} from './aleatorio.js';
+import {aleatorio, nome} from './aleatorio.js';
 import {perguntas} from './perguntas.js';
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
@@ -48,7 +48,7 @@ function mostraResultado(){
 }
 
 function jogarNovamente(){
-    aual = 0;
+    atual = 0;
     historiaFinal = "";
     caixaResultado.classList.remove("mostrar"); /*add*/
     mostraPergunta();
